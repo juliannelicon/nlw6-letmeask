@@ -9,3 +9,14 @@
 - [node-sass](https://github.com/sass/node-sass)
 - [react-router-dom](https://reactrouter.com/web/guides/quick-start)
 
+## Projeto
+O podcastr é um app para reprodução de episódios em áudio do seu podcast favorito.
+
+## Como executar
+
+   - Clone o repositório
+   - Instale as dependências com yarn
+   - Inicie a fake api com yarn server
+   - Inicie o servidor com yarn dev
+
+Agora você pode acessar localhost:3000 do seu navegador.
