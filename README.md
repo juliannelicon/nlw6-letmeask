@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="dark" width="400px" src="https://github.com/juliannelicon/nlw6-letmeask/blob/master/src/asset/images/logo.svg" />
+  <img alt="dark" width="400px" src="https://github.com/juliannelicon/nlw6-letmeask/blob/master/src/assets/images/logo.svg" />
 </p>
 
 ## Tecnologias
