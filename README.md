@@ -16,7 +16,6 @@ O podcastr é um app para reprodução de episódios em áudio do seu podcast fa
 
    - Clone o repositório
    - Instale as dependências com yarn
-   - Inicie a fake api com yarn server
-   - Inicie o servidor com yarn dev
+   - Inicie o servidor com yarn start
 
 Agora você pode acessar [localhost:3000 ](http://localhost:3000) do seu navegador.
