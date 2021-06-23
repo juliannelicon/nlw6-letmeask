@@ -10,7 +10,7 @@
 - [react-router-dom](https://reactrouter.com/web/guides/quick-start)
 
 ## Projeto
-O podcastr é um app para reprodução de episódios em áudio do seu podcast favorito.
+O letmeask
 
 ## Como executar
 
