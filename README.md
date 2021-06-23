@@ -3,6 +3,8 @@
 </p>
 
 ## Tecnologias
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Firebase](https://firebase.google.com/)
 - [node-sass](https://github.com/sass/node-sass)
 - [react-router-dom](https://reactrouter.com/web/guides/quick-start)
