@@ -12,12 +12,13 @@ import { Button } from '../components/Button';
 import { RoomCode } from '../components/RoomCode';
 
 import '../styles/room.scss';
+import { Question } from '../components/Question';
 
 type RoomParams = {
   id: string;
 }
 
-type Question = {
+type QuestionType = {
   id: string;
   author: {
     name: string;
@@ -44,7 +45,7 @@ export function Room() {
   const roomId = params.id;
 
   const [newQuestion, setNewQuestion] = useState('');
-  const [questions, setQuestions] = useState<Question[]>([]);
+  const [questions, setQuestions] = useState<QuestionType[]>([]);
   const [title, setTitle] = useState('');
 
   useEffect(() => {
@@ -130,6 +131,17 @@ export function Room() {
             <Button type="submit" disabled={!user}>Enviar pergunta</Button>
           </div>
         </form>
+        <div className="question-list">
+          {questions.map(question => {
+            return(
+              <Question
+                key={question.id}
+                content={question.content}
+                author={question.author}
+              />
+            );
+          })}
+        </div>
       </main>
     </div>
   )
